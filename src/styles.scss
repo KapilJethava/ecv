@@ -1,32 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
-html, body {
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
-  height: 100%;
+@import "src/assets/css/font";
+@import "~@angular/material/prebuilt-themes/pink-bluegrey.css";
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
 }
+
 .stretch-me {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
-.f{
-  display: flex;
+
+.f {
+    display: flex;
 }
+
 .f .fi {
-  flex: 1;
+    flex: 1;
 }
+
 .f.fdc {
-  flex-direction: column;
+    flex-direction: column;
 }
+
 .f.fdr {
-  flex-direction: row;
+    flex-direction: row;
 }
-.f .fac{
-  align-items: center;
+
+.f .fac {
+    align-items: center;
 }
+
 .f .fjc {
-  justify-items: center;
+    justify-items: center;
 }
